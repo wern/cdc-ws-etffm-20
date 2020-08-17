@@ -18,7 +18,7 @@ import java.net.URL;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @PactUrl(urls = "pacts/HelloWorldConsumer-HelloWorldProvider.json")
 @Provider("HelloWorldProvider")
-class ProviderVerification {
+class ProviderVerificationTest {
 
 	@LocalServerPort
 	int randomServerPort;
